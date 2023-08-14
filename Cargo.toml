@@ -1,11 +1,17 @@
 [package]
 name = "mongo-tracing"
 version = "0.1.0"
+authors = ["Manuel Martinez <mmartinezdev2@gmail.com>"]
+description = "Mongodb connection wrapper with telemetry support"
+license = "MIT"
+repository = "https://github.com/soulseekeer24/mongo-tracing"
 edition = "2021"
+readme = "README.md"
+keywords = ["mongo", "logging", "tracing", "database", "opentelemetry"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-mongodb = "2.6.0"
+mongodb = "2.0.0"
 tracing = "0.1.37"
 serde = "1.0.183"
