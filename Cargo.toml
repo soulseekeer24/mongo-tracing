@@ -1,6 +1,6 @@
 [package]
 name = "mongo-tracing"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Manuel Martinez <mmartinezdev2@gmail.com>"]
 description = "Mongodb connection wrapper with telemetry support"
 license = "MIT"
